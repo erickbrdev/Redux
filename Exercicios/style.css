@@ -4,8 +4,7 @@
   box-sizing: border-box;
 }
 
-.container {
-  margin-top: 150px;
+#container-mode {  
   display: flex;
   align-items: center;
   justify-content:center ;   
@@ -15,7 +14,7 @@
 .container-btn {
   border: none;
   border-radius: 5px;
-  background-color: black;
+  background-color: rgb(119, 0, 0);
   color: white;
   width: 150px;
   padding: 5px;
