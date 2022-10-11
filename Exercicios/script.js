@@ -11,8 +11,7 @@ btn.addEventListener('click', () => {
 const reducer = (state = initialState, action) => {
   switch(action.type){   
     case CHANGE_THEME: 
-      if(state === 'mode-light') return 'mode-dark'   
-      else return 'mode-light'
+     return state === 'mode-light' ? 'mode-dark' : 'mode-light'
    
     default: 
       return state
